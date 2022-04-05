@@ -11,25 +11,25 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'den',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Sarapan dulu',
+	greetingAfternoon: 'Jangan lupa makan',
+	greetingEvening: 'Lembur ga bikin kaya',
+	greetingNight: 'Jangan begadang',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '5303940441dedb0179d0c18cf59e8734', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'id', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
@@ -53,72 +53,72 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Localhost',
+			icon: 'server-crash',
+			link: 'http://laradock.test',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Phpmyadmin',
+			icon: 'database',
+			link: 'http://laradock.test:8081',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Simrs',
+			icon: 'activity',
+			link: 'http://simrs.rsymc.com',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Whatsapp',
+			icon: 'message-circle',
+			link: 'https://web.whatsapp.com',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Teams',
+			icon: 'users',
+			link: 'https://teams.microsoft.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Clickup',
+			icon: 'trello',
+			link: 'https://app.clickup.com/3644313/v/b/sh/2',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Localhost',
+			icon: 'server',
+			link: 'http://laradock.test',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Phpmyadmin',
+			icon: 'database',
+			link: 'http://laradock.test:8081',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Clinic',
+			icon: 'cross',
+			link: 'http://clinic.test',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'Crm',
+			icon: 'alert-triangle',
+			link: 'http://crm.test',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Pos',
+			icon: 'package',
+			link: 'http://pos.test',
 		},
 		{
 			id: '6',
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'server',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Medify',
+					link: 'http://medify.test',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Clinic',
+					link: 'http://clinic.test',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'CRM',
+					link: 'http://crm.test',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'POS',
+					link: 'http://pos.test',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'github',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Medify',
+					link: 'https://github.com/medifyid/medifyhospital',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Clinic',
+					link: 'https://github.com/adenanteng/clinic',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'CRM',
+					link: 'https://github.com/adenanteng/crm',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'POS',
+					link: 'https://github.com/adenanteng/pos',
 				},
 			],
 		},
