@@ -67,7 +67,7 @@ const CONFIG = {
 			id: '3',
 			name: 'Simrs',
 			icon: 'activity',
-			link: 'http://simrs.rsymc.com',
+			link: 'http://simrs.rsymc.co.id',
 		},
 		{
 			id: '4',
